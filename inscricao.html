@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MultPro</title>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+        <script src="https://kit.fontawesome.com/f22b9db43a.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="css/estilo.css">
+        
+    </head>
+    <body>
+
+        <header>
+            <nav  class="navbar navbar-expand-md navbar-light navbar-transparente">
+                <div class="container">
+                    <a href="index.html" class="navbar-brand">
+                        <h2 >MultPro</h2>
+                    </a>
+                    
+                    <button class="navbar-toggler mr-5" data-toggle="collapse" data-target="#nav-principal">
+                        <i class="fas fa-bars text-white"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse " id="nav-principal">
+                        <ul class="navbar-nav ml-auto ">
+                            <li class="nav-item ">
+                                <a href="Negociacoes.html" class="nav-link">Negociaçoes</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="moedas.html" class="nav-link">Moeda</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="empresa.html" class="nav-link">Empresa</a>
+                            </li>
+                            <li class="nav-item divisor">
+                            </li>
+                            <li class="nav-item ">
+                                <a href="inscricao.html" class="nav-link">Increver-se</a>
+                            </li>
+                            <li lass="nav-item">
+                                <a href="" class="nav-link d-none d-md-block">|</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="logar.html" class="nav-link">Entrar</a>
+                            </li>
+                        </ul>
+                    </div>
+
+            </nav>
+        </header>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-flex mt-4">
+                        <div class="">
+                            <p class="mb-0">E-mail</p>
+                            <input type="text" placeholder="Seu email" style="min-width:300px;" class="form-control mb-2">
+                            <p class="mb-0">Senha</p>
+                            <input type="password" placeholder="Sua senha" class="form-control mb-2">
+                            <p class="mb-0">Cpf</p>
+                            <input type="text" placeholder="Ex: 111.111.111-11" class="form-control mb-2">
+                            <p class="mb-0">Nome</p>
+                            <input type="text" placeholder="Seu nome" class="form-control mb-2">
+                            <p class="mb-0">Sobrenome</p>
+                            <input type="text" placeholder="Seu sobrenome" class="form-control mb-2">
+                            <p class="mb-0">Data de Nascimento</p>
+                            <input type="date" placeholder="Ex:01/02/2000" class="form-control mb-2">
+                            <p class="mb-0">Sexo</p>
+                            <div class="ml-3">
+                                <input type="radio" class="form-check-input mb-2" name="optionsRadios" id="optionsRadios1" value="option1">
+                                    Masculino
+                                    </label>
+                                    <br>
+                                <input type="radio" class="form-check-input mb-2" name="optionsRadios" id="optionsRadios2" value="option2">
+                                    Feminino
+                                    </label>
+                            </div>
+                            <p class="mt-2 mb-0">Telefone</p>
+                            <input type="text" placeholder="Ex:19 99999-9999" class="form-control mb-2">
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex mt-4">
+                        <div>
+                            <p class="mb-0">Tipo de endereço</p>
+                            <select class="form-control" id="tipo">
+                                <option>Casa</option>
+                                <option>Apartamento</option>
+                            </select>
+                            <p class="mb-0">Cep</p>
+                            <input type="text" placeholder="Ex: 15105-000" style="min-width:300px;" class="form-control mb-2">
+                            <p class="mb-0">Endereço</p>
+                            <input type="text" placeholder="Ex: Guilherme Garcia" class="form-control mb-2">
+                            <p class="mb-0">Número</p>
+                            <input type="text" placeholder="Ex: 24" class="form-control mb-2">
+                            <p class="mb-0">Referência</p>
+                            <input type="text" placeholder="Ex: Pé de jambo na frente da casa" class="form-control mb-2">
+                            <p class="mb-0">Bairro</p>
+                            <input type="text" placeholder="Ex: Largo dos Viados" class="form-control mb-2">
+                            <p class="mb-0">Cidade</p>
+                            <input type="text" placeholder="Ex: São Paulo" class="form-control mb-2">
+                            <p class="mb-0">Estado</p>
+                            <input type="text" placeholder="Ex: SP" class="form-control mb-2">
+                        </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <div class="form-check">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input">
+                    Receber notificações pelo Whatsapp
+                  </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input">
+                        Receber ofertas por e-mail
+                    </label>
+                </div>
+                  
+                <button class="btn btn-success btn-lg">Criar seu cadrastro</button>
+                <p class="mb-0">Fique tranquilo esse site é seguro</p>
+                <p>já tem o cadrastro?<a href="logar.html">Entrar</a></p>
+            </div>
+        </section>
+        
+        <footer class="mt-4 mb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <p>
+                            <a class="text-dark" href="Negociacoes.html">Negociações</a>
+                            <a class="text-dark" href="empresa.html">Empresa</a>
+                            <a class="text-dark" href="moedas.html">Moedas</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-end">
+                        <a href="" class="btn btn-outline-dark ml-2">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="" class="btn btn-outline-dark ml-2">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="btn btn-outline-dark ml-2">
+                            <i class="fab fa-instagram-square"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+    </body>
+</html>
