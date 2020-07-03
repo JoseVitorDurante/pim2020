@@ -14,7 +14,7 @@ nav.navbar-transparente{
 }
 
 #nav-principal{
-    font-size: 1.4em;
+    font-size: 1.0em;
 }
 
 #servicos{
@@ -43,8 +43,21 @@ nav.navbar-transparente{
 
 footer p a{
     margin: 5px 15px;
-
+    font-size: 0.9em;
 }
+
+#logar{
+    margin-top: 100px;
+}
+
+#logar P{
+    margin: 0;
+}
+
+#home{
+    height: auto;
+}
+
 
 
 
@@ -70,31 +83,28 @@ footer p a{
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
     #capa{
-        font-size: 2em;
+        font-size: 0.9em;
         margin-top: 50px;
     }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
     #capa{
-        font-size: 2em;
+        font-size: 1.2em;
         margin-top: 50px;
     }
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    #capa{
-        font-size: 3em;
+   #capa{
+        font-size: 2em;
         margin-top: 50px;
     }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-    #capa{
-        font-size: 3em;
-        margin-top: 50px;
-        }
+    
     }
 }
